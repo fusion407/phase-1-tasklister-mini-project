@@ -23,7 +23,7 @@
 
 // Ability to edit tasks     ***** complete
 
-// Something else of my choice  ***** in progress
+// Something else of my choice  ***** complete
 //    (add feature that allows user's input to affect the DOM)
 
 

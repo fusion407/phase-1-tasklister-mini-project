@@ -1,26 +1,47 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Indie Flower', cursive;
 }
 
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: #86af49;
 }
 
 button {
   font-size: 7px;
 }
 
+input#highbtn {
+  background-color: red;
+  color: red;
+}
+h4 {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+#checkboxes {
+  text-align: center;
+  margin: auto;
+}
+#duedate {
+  text-align: center;
+}
+#sort {
+  align-content: auto;
+  margin: auto;
+  font-size: 10px;
+}
 #main-content {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid #333;
+  border: 1px solid #e6e2d3;
   background: rgba(255, 255, 255, 0.3);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
@@ -30,8 +51,15 @@ button {
 #list {
   margin: 10px;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  background: #e6e2d3;
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+#submitbtn {
+  background-color: #e6e2d3;
+  border-color: #c4b7a6;
+}
+input {
+  font-family: 'Indie Flower', cursive;
 }
